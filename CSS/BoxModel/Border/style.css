@@ -1,0 +1,22 @@
+/* border property is used to define the border around an element. 
+We can customize the width, style, and color of a border, as well as apply it to all sides of the element or specify borders for each side individually. */
+
+/* Basic Syntax - selector{
+    border:<width> <style> <color>
+} */
+
+/* width: Specifies the thickness of the border (e.g., 2px, 0.5em).
+style: Specifies the style of the border (e.g., solid, dashed, dotted, double).
+color: Specifies the color of the border (e.g., red, #000, rgb(255, 0, 0)).  */
+
+.heading1 {
+  background-color: plum;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+}
+
+/* You can also create rounded corners with the border-radius property:
+
+To remove a border, you can set the border property to none:
+
+With the border property, you have full control over how the borders around elements are styled in your web pages */

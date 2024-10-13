@@ -1,0 +1,21 @@
+/* In CSS, the height and width properties are used to set the height and width of an element. You can specify these dimensions using different units like pixels (px), percentages (%), viewport units (vh, vw), and more. These properties define the size of the content box of the element (unless box-sizing is changed). */
+
+.para1 {
+  /* max-width: 500px;
+  min-width: 300px; */
+  min-height: 50px;
+  background-color: aqua;
+}
+
+/* min-height: The minimum height the element can shrink to.
+min-width: The minimum width the element can shrink to.
+max-height: The maximum height the element can grow to.
+max-width: The maximum width the element can grow to. */
+
+/* auto Value:
+The auto value for width or height lets the browser determine the size based on the content or other properties like padding or margin. */
+
+/* Box-Sizing and Height/Width:
+By default, the height and width properties apply to the content box. If you add padding or borders, they are added outside the specified width and height.
+
+To include padding and borders inside the specified dimensions, you can use box-sizing: border-box;. */
