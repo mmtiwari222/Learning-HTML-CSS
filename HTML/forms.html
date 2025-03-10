@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <!-- forms - forms collect and submit user provided data and send it to a web server for processing -->
+
+    <!-- form tag act as a container for various form elements that allows user to input different types of data -->
+
+    <!-- forms need to know where to and how to send the data -->
+
+    <!-- action attribute - specifies the location on the server where the form data will be sent for processing -->
+
+    <!-- method attribute - specifies the HTTP method to use when sending the form data to the server (GET or POST) -->
+
+    <form action="/" method="post">
+        <!-- form elements -->
+
+        <!-- <label> Associates a label with an input element for better accessibility -->
+        <!-- for attribute - links the label to the input -->
+        <label for="fullName">Full Name</label>
+
+        <!-- <input> The input element where users can enter data -->
+        <input type="text" id="fullName" name="fullName">
+        <br>
+
+        <!-- type- specifies the type of input -->
+        <!-- id - links the input to its label -->
+        <!-- name - assigning identifiers for data collection, required when data sending to the server -->
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <!-- input is masked -->
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <!-- Used for multi-line text input -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <!-- rows - specifies the number of rows in the textarea
+        cols - specifies the number of columns in the textarea -->
+
+        <!-- radio button - a control that allows the user to select one option from a set of options -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <!-- Specifies the value sent to the server when the form is submitted. -->
+
+        <!-- checkbox - a control that allows the user to select multiple options from a set of options -->
+        <label>Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+
+        <!-- dropdown-menu - a control that allows the user to select one option from a set of options -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select>
+        <br>
+
+        <!-- file input - a control that allows the user to select a file to upload -->
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file">
+        <br>
+
+        <!-- submit and reset buttons - used to submit and reset the form -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+
+        <!-- placeholder - specifies a short hint that describes the expected value of an input field -->
+        <input type="text" name="search" placeholder="Enter your search term">
+        <br>
+
+        all input types -
+        <input type="text"> <br>
+        <input type="email"> <br>
+        <input type="password"> <br>
+        <input type="number"> <br>
+        <input type="checkbox"> <br>
+        <input type="radio"> <br>
+        <input type="submit"> <br>
+        <input type="reset"> <br>
+        <input type="button"> <br>
+        <input type="color"> <br>
+        <input type="date"> <br>
+        <input type="datetime-local"> <br>
+        <input type="email"> <br>
+        <input type="hidden"> <br>
+        <input type="month"> <br>
+        <input type="number"> <br>
+        <input type="range"> <br>
+        <input type="search"> <br>
+        <input type="tel"> <br>
+
+        <!-- min, max, maxlength, minlenght -- specify the minimum and maximum values for an input field -->
+
+        <!-- form validation - the process to checking data to insure it meets expected criteria -->
+        <!-- client side & server side validation -->
+        <!-- client side - runs on the user's device
+          server side - runs on the server -->
+
+        <!-- there are two types of client side validation --
+          1. built-in validation - automatic validation provided by the browser for the certain input types
+          2. custom validation - validation implemented by the developer using HTML attributes and JavaScript - required, minlength, maxlength, min, max -->
+    </form>
+</body>
+
+</html>
