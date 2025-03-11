@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <h1>Here, We study about Table in HTML</h1>
+
+    <!-- table - displays information in a grid format, arranging data by rows and columns -->
+
+    <!-- <table>: Wraps the table.
+    <caption>: Defines a table caption.
+
+    <thead>: Groups the header content in a table.   
+     <th>: Defines a table header cell.
+
+    <tbody>: Groups the body content in a table.
+    <tr>: Defines a table row.
+    <td>: Defines a table data cell.
+
+    <tfoot>: Groups the footer content in a table.
+
+    colspan: Specifies the number of columns a cell should span.
+     rowspan: Specifies the number of rows a cell should span.
+    -->
+
+    <table>
+      <caption>
+        Student Data
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Roll no.</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Madan</td>
+          <td>1</td>
+          <td rowspan="2">80</td>
+        </tr>
+        <tr>
+          <td>Mohan</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Tiwari</td>
+          <td>3</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="2">Total Marks</td>
+          <td>250</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
