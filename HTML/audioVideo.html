@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio and Video Tag</title>
+  </head>
+  <body>
+    <h2>Here we study about Audio and Video Tag in HTML</h2>
+
+    <!-- Audio Tag - audio tag is used to embed audio in HTML
+     attributes: src, controls -->
+    <!-- src - attribute is used to specify the source of the audio -->
+    <!-- control - attribute is used to add controls to the audio -->
+    <audio src="./music.mp3" controls></audio>
+    <br />
+
+    <!-- Video Tag - video tag is used to embed video in HTML -->
+    <video src="./video.mp4" controls></video>
+    <!-- Customizing Controls with Attributes
+    You can customize the behavior of the <audio> and <video> elements using additional attributes:
+
+Common Attributes for Both <audio> and <video>
+Attribute	Description
+controls	Displays the default media controls (play, pause, volume, etc.).
+autoplay	Automatically starts playing the media as soon as it is ready.
+loop	Loops the media playback indefinitely.
+muted	Mutes the audio by default.
+preload	Specifies how the media should be loaded (auto, metadata, none).
+src	Specifies the URL of the media file.
+
+Attributes Specific to <video>
+Attribute	Description
+poster	Specifies an image to display as a placeholder before the video plays.
+width	Sets the width of the video player.
+height	Sets the height of the video player.
+playsinline	Ensures the video plays inline on mobile devices (instead of fullscreen). -->
+
+    <!-- source tag - source tag is used to specify the source of the video & audio -->
+    <!-- When to Use Which?
+   Use the src attribute:
+   When you only have one media file format.
+    When you don't need to worry about browser compatibility.
+
+   Use the <source> tag:
+   When you want to provide multiple formats for better compatibility.
+   When you want to ensure your media works across all browsers. -->
+  </body>
+</html>
