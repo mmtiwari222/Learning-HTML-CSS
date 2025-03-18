@@ -1,0 +1,28 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+p {
+    /*  */
+    font-family: "Montserrat", serif;
+
+    /* set the thickness of the text characters (100 - 900)
+    400 - normal, 700 - bold(default for heading), 500 - medium */
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.list {
+    list-style: none;
+    line-height: 30px;
+    text-decoration: double;
+}
