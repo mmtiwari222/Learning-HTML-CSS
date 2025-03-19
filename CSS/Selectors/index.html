@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selectors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- external-css - styling applied in external css file and linked to html document -->
+    <link rel="stylesheet" href="style.css" />
 
-<body>
-    <h1>CSS Selectors</h1>
+    <!-- internal-css - styling applied inside the style tag in same html file -->
+    <style>
+      h1 {
+        font-weight: 300;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- inline-css - styling applied directly to the HTML Elements -->
+    <h1 style="color: aqua">CSS Selectors</h1>
     <section class="container">
-        <h2 id="main">Header</h2>
-        <p>It is a Paragraph</p>
-        <p>It is also a Paragraph</p>
-        <a href="https://www.github.com">Github</a>
+      <h2 id="main">Header</h2>
+      <p>It is a Paragraph</p>
+      <p>It is also a Paragraph</p>
+      <a href="https://www.github.com">Github</a>
     </section>
     <form action="/">
-        <label for="fullName"></label>
-        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+      <label for="fullName"></label>
+      <input
+        type="text"
+        id="fullName"
+        name="fullName"
+        placeholder="Enter your full name"
+      />
     </form>
     <div class="myContainer">
-        <p>It is another Paragraph
-        </p>
+      <p>It is another Paragraph</p>
     </div>
     <h2>Header 2</h2>
     <p>I am a Paragraph</p>
     <p>I am another Paragraph</p>
-
-</body>
-
+  </body>
 </html>
