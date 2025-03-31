@@ -5,24 +5,36 @@
 } */
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     background-color: #f1f1f1;
 }
 
-p {
-    /*  */
-    font-family: "Montserrat", serif;
+h2 {
+    /* text-align - horizontal alignment of the text within an element (left, center, right, justify) */
+    text-align: center;
+}
 
+p {
+    /* font-family - name of the font */
+    font-family: "Montserrat", sans-serif;
     /* set the thickness of the text characters (100 - 900)
     400 - normal, 700 - bold(default for heading), 500 - medium */
     font-weight: 900;
+    /* font-size - set the size of the text characters */
     font-size: 1.2rem;
+    /* font-style - style of the text characters (normal, italic, oblique) */
     font-style: italic;
+    /* text-decoration - decoration of the text characters (none underline, overline, line-through) */
     text-decoration: underline;
+    /* text-transform - transformation of the text characters (none capitalize, uppercase, lowercase) */
+    text-transform: capitalize;
 }
 
 .list {
     list-style: none;
-    line-height: 30px;
-    text-decoration: double;
+    /* list-style - style of the list items (none, disc, circle, square) */
+    line-height: 1.5;
+    /* line height - space between lines (unitless) */
+    letter-spacing: 2px;
+    /* letter-spacing - space between characters */
 }
